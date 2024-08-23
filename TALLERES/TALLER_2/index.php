@@ -1,11 +1,11 @@
-<html>
-<body>
-
-<h1>Mi Primer PHP</h1>
-
 <?php
-echo "Hello World!";
-?>
+$nombre = "Juan";
+$edad = 25;
+$altura = 1.75;
+$esEstudiante = true;
 
-</body>
-</html>
+echo "Nombre: $nombre<br>";
+echo "Edad: $edad<br>";
+echo "Altura: $altura<br>";
+echo "¿Es estudiante? " . ($esEstudiante ? "Sí" : "No");
+?>
