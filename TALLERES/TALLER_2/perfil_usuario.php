@@ -3,7 +3,7 @@
 $nombre = "Anthony Sebastian Pineda Gonzalez";
 $edad = 24;
 $correo = "anthony.pineda@utp.ac.pa";
-$telefono = 64752-8886;
+$telefono = "6475-2886";
 
 define("OCUPACION", "¡Estudiante!");
 
@@ -14,7 +14,7 @@ $mensaje2 = " Este es mi correo personal: $correo    Y actualmente soy: ". OCUPA
 echo $mensaje1 . "<br>";
 print($mensaje2 . "<br>");
 
-printf("Soy un: %s, Me llamo: %s, y tengo  %d años, Este es mi correo: %s, y este mi telefono: %d<br>", OCUPACION,  $nombre, $edad, $correo,$telefono);
+printf("Soy un: %s, Me llamo: %s, y tengo  %d años, Este es mi correo: %s, y este mi telefono: %s<br>", OCUPACION,  $nombre, $edad, $correo,$telefono);
 
 echo "<br>TODOS  MIS DATOS:<br>";
 var_dump($nombre);
