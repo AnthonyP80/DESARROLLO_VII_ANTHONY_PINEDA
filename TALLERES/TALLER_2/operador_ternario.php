@@ -9,7 +9,7 @@ echo "Edad: $edad<br>";
 echo "Mensaje: $mensaje<br><br>";
 
 // Uso con diferentes tipos de datos
-$nombre = "Anthony Pineda";
+$nombre = "Anthony Pinedaa";
 $saludo = ($nombre !== "") ? "Hola, $nombre!" : "Hola, invitado!";
 echo "Nombre: '$nombre'<br>";
 echo "Saludo: $saludo<br><br>";
