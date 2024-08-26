@@ -3,13 +3,13 @@
 echo "<h2>Operador Ternario</h2>";
 
 // Ejemplo básico
-$edad = 20;
+$edad = 23;
 $mensaje = ($edad >= 18) ? "Eres mayor de edad" : "Eres menor de edad";
 echo "Edad: $edad<br>";
 echo "Mensaje: $mensaje<br><br>";
 
 // Uso con diferentes tipos de datos
-$nombre = "Juan";
+$nombre = "Anthony Pineda";
 $saludo = ($nombre !== "") ? "Hola, $nombre!" : "Hola, invitado!";
 echo "Nombre: '$nombre'<br>";
 echo "Saludo: $saludo<br><br>";
