@@ -25,7 +25,7 @@ $texto = "Uno,Dos,Tres,Cuatro,Cinco <br>";
 $array = explode(",", $texto, 3);
 
 echo "
-Texto original:<br> $texto
+Texto original:<br> $texto   
 ";
 echo "Array con límite:<br>
 ";
