@@ -1,6 +1,6 @@
 
 <?php
-// Ejemplo de uso de array_push()
+// Ejemplo de usooo de array_push()
 $frutas = ["Manzana", "Naranja", "Plátano"];
 echo "Array original de frutas:</br>";
 print_r($frutas);
