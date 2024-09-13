@@ -12,7 +12,7 @@ print_r($frutas);
 // Ejercicio: Crea un array con los nombres de 3 de tus amigos
 // y usa array_push() para añadir 2 amigos más
 $misAmigos = []; // Reemplaza esto con tu array de amigos
-array_push($misAmigos, "", ""); // Reemplaza las comillas vacías con los nombres de tus amigos
+array_push($misAmigos, "anthony", "pineda"); // Reemplaza las comillas vacías con los nombres de tus amigos
 
 echo "</br>Mi lista de amigos:</br>";
 print_r($misAmigos);
